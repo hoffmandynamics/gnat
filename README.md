@@ -4,12 +4,14 @@ A tiny Rust HTTP static file server
 ## Compile
 `RK1`
 ```
-$ RUSTFLAGS='-C target-feature=+crt-static' cross build --release --target armv7-unknown-linux-gnueabi
+$ RUSTFLAGS='-C target-feature=+crt-static' cross build \
+    --release --target armv7-unknown-linux-gnueabi
 ```
 
 `TuringPi2 - AllWinner`
 ```
-RUSTFLAGS='-C target-feature=+crt-static' cross build --release --target armv7-unknown-linux-gnueabihf
+RUSTFLAGS='-C target-feature=+crt-static' cross build \
+    --release --target armv7-unknown-linux-gnueabihf
 ```
 
 ## Copy to RK1 FIT Image
