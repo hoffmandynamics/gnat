@@ -10,7 +10,7 @@ $ RUSTFLAGS='-C target-feature=+crt-static' cross build \
 
 `TuringPi2 - AllWinner`
 ```
-RUSTFLAGS='-C target-feature=+crt-static' cross build \
+$ RUSTFLAGS='-C target-feature=+crt-static' cross build \
     --release --target armv7-unknown-linux-gnueabihf
 ```
 
